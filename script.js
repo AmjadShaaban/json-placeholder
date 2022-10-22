@@ -101,8 +101,8 @@ goBackButtonEl.addEventListener("click", () => {
 });
 
 for (const field of userFields) {
-  const cell = document.createElement("td");
-  cell.innerHTML = field.header;
+  const cell = document.createElement("th");
+  cell.innerText = field.header;
   usersTableHeadRowEl.appendChild(cell);
 }
 
